@@ -1,0 +1,12 @@
+Account: EQUTY
+Debit: $1000
+Credit: $1000
+Entry Date: 2023-07-19
+Description: KNFNFNFF
+
+Account: EQUTY
+Debit: $4555
+Credit: $4555
+Entry Date: 2023-07-13
+Description: JTHHJNJ
+

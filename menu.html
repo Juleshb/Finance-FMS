@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FMC</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.php"><i class="bi bi-app-indicator"></i>FINANCE MS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="trial-balance.php">Trial-balance & Ledger</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="income-statement.php">Income statement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="balance-sheet.php">Balance sheet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ledger.php">T Accounts</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        $(document).ready(function() {
+            $(".navbar-toggler").on("click", function() {
+                $("#navbarNav").toggleClass("show");
+            });
+        });
+    </script>
+</body>
+</html>
